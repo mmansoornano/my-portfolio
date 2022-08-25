@@ -10,7 +10,8 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const resumeLink =
 // https://github.com/mmansoornano/my-portfolio/blob/main/src/Ahmad_Mian_Mansoor_Data_Scientist.pdf
-  "https://raw.githubusercontent.com/mmansoornano/my-portfolio/main/src/Assets/Ahmad_Mian_Mansoor_Data_Scientist.pdf";
+// https://github.com/mmansoornano/my-portfolio/blob/main/src/Assets/Ahmad_Mian_Mansoor_Data_Scientist.pdf
+  "https://raw.githubusercontent.com/mmansoornano/my-portfolio/main/src/Ahmad_Mian_Mansoor_Data_Scientist.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
