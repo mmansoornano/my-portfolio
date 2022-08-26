@@ -1,5 +1,9 @@
-[![Known Vulnerabilities](https://snyk.io/test/github/mmansoornano/my-portfolio/main/badge.svg)]
+<center>
 
+[![Known Vulnerabilities](https://snyk.io/test/github/mmansoornano/my-portfolio/main/badge.svg)] &nbsp;
+[![codecov](https://codecov.io/gh/mmansoornano/my-portfolio/branch/main/graph/badge.svg?token=KJYUSJMJR0)](https://codecov.io/gh/mmansoornano/my-portfolio)
+
+<center/>
 Clone the repository and run the following command:
 
 ### `npm start`
