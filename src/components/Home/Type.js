@@ -14,7 +14,9 @@ function Type() {
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 1,
+        delay: 2,
+        deleteSpeed: 2,
+        // cursor: '$'
       }}
     />
   );

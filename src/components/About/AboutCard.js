@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { AiTwotoneStar } from "react-icons/ai";
 
 function AboutCard() {
   return (
@@ -8,30 +9,42 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            Hi Everyone, I am <span className="purple">Mian Mansoor Ahmad </span>
+            from <span className="purple"> Islamabad, Pakistan.</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            <AiTwotoneStar /> I am pursuing my Higher Education in Computer Science from
+            <span className="purple"> National University of Science and Technology, </span>
+            H-12 Campus.
+            <br />
+            <br />
+            <AiTwotoneStar /> I started my initial career around mid 2017 and 
+            got into 
+            <span className="purple"> Data Science </span>
+            in early 2020.
+            <br />
+            <br />
+            My hobbies are:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Hiking
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight /> Inline Skating
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Travelling and Camping
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Long Rides on my Motorcycle
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          </p> */}
+          {/* <footer className="blockquote-footer">Soumyajit</footer> */}
         </blockquote>
       </Card.Body>
     </Card>
