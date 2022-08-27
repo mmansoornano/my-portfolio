@@ -45,7 +45,9 @@ function Timeline() {
               <p id="description">
                 {element.description.split('\n').map((li) => {
                   return (
-                    <li> {li} </li>
+                    <li key={li.toString()}> 
+                      {li} 
+                    </li>
                   )
                 })}
                 </p>
