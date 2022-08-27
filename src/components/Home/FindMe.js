@@ -13,64 +13,14 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              Who is <span className="purple"> MANSOOR </span>?
-            </h1>
-            <p className="home-about-body">
-              Mansoor was exploring Python programming for fun where he came across
-              <i>
-                <b className="purple"> Data Science</b>
-              </i>
-              &nbsp; and made it a purpose of his life.
-              <br />
-              <br />His core expertise lie in
-              <i>
-                <b className="purple"> Data Analytics </b>
-              </i>
-              &nbsp;and
-              <i>
-                <b className="purple"> Conversational AI</b> &nbsp;Chatbots.
-              </i>
-              <br />
-              <br />
-              The main services are Developing, Designing and Deploying&nbsp;
-              <i>
-                <b className="purple">Rasa and Botfont </b> 
-              </i>
-              &nbsp; based chatbots, and &nbsp;
-              <i>
-                <b className="purple">
-                  Data Analytics
-                </b>
-              </i>
-              &nbsp; Services using Python, R and Tableau.
-              <br />
-              <br />
-              He is motivated to conduct research in the field of &nbsp;
-             <i>
-               <b className="purple">Natural Language Processing</b>
-             </i>
-             &nbsp; and loves studying in his own time from major &nbsp;
-              <i>
-                <b className="purple">
-                  MOOCs, DataCamp, Hugging Face, YouTube
-                </b>
-              </i>
-              &nbsp; and improves the skillset in the field of 
-              <i>
-                <b className="purple"> Data Science and Artifical Intelligence</b>
-              </i>.
-            </p>
-          </Col>
+        {/* <Row>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
-        </Row>
-        {/* <Row>
+        </Row> */}
+        <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -119,7 +69,7 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row> */}
+        </Row>
       </Container>
     </Container>
   );
