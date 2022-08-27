@@ -20,7 +20,8 @@ function Timeline() {
             <h1 className="timeline-title">
             Work and Education  <strong className="purple">Timeline </strong>
             </h1>
-            <VerticalTimeline>
+            <VerticalTimeline
+            key={1}>
         {timelineElements.map((element) => {
           let isWorkIcon = element.icon === "work";
           let showButton =
