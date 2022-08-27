@@ -15,11 +15,11 @@ jobs:
     - name: Build
       run: npm install
 
-    - name: Test Coverage
-      run: npm run test a -- --coverage
+    # - name: Test Coverage
+    #   run: npm run test a -- --coverage
 
-    - name: Upload coverage reports to Codecov with GitHub Action
-      uses: codecov/codecov-action@v3
+    # - name: Upload coverage reports to Codecov with GitHub Action
+    #   uses: codecov/codecov-action@v3
 
     - name: Deploy
       run: |
