@@ -16,7 +16,8 @@ jobs:
       run: npm install
 
     - name: Test Coverage
-      run: npm run test -- --coverage
+      run: react-scripts test --coverage
+      #npm run test -- --coverage
 
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v3
