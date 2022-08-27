@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiTableau } from "react-icons/si"
 
 function Footer() {
   // let date = new Date();
@@ -53,12 +54,12 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/mansoor.ds/"
+                href="https://public.tableau.com/app/profile/mian.mansoor.ahmad2950/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <SiTableau />
               </a>
             </li>
           </ul>

@@ -6,7 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import { SiTableau } from "react-icons/si"
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -57,12 +57,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/mansoor.ds/"
+                  href="https://public.tableau.com/app/profile/mian.mansoor.ahmad2950/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <SiTableau />
                 </a>
               </li>
             </ul>
