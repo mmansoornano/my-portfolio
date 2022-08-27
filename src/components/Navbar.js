@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import {
   // AiFillStar,
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
+  // AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
 
