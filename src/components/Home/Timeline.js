@@ -21,7 +21,7 @@ function Timeline() {
             Work and Education  <strong className="purple">Timeline </strong>
             </h1>
             <VerticalTimeline
-            key={1}>
+            key={"1"}>
         {timelineElements.map((element) => {
           let isWorkIcon = element.icon === "work";
           let showButton =
